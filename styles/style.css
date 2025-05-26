@@ -92,3 +92,18 @@ body{
     font-size: 14px;
     color: rgb(226, 219, 219);
 }
+
+/*TREINOS*/
+.treinos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+.treinos-container{
+    padding: 4% 2% 4% 0;
+}
+.treinos-img{
+    width: 100px;
+    height: 100px;
+}
