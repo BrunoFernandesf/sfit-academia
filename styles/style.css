@@ -58,6 +58,29 @@ body{
 }
 
 /*LOCALIZAÇÃO*/
+.localizacao{
+    display: flex;
+    justify-content: center;
+}
+.localizacao-container1{
+    margin: 0 5% 0 0;
+}
+.localizacao-container2{
+    display: flex;
+    align-items: center;
+    margin: 0 3% 0 0;
+}
+.localizacao-container2-div p{
+    margin: 0 0 5% 0;
+}
+.localizacao-container2-img{
+    width: 60px;
+    height: 60px;
+}
+.localizacao-container3{
+    margin: 0 0 0 10%;
+    text-align: center;
+}
 
 /*HORÁRIO*/
 .horario{
@@ -102,8 +125,55 @@ body{
 }
 .treinos-container{
     padding: 4% 2% 4% 0;
+    text-align: center;
 }
 .treinos-img{
     width: 100px;
     height: 100px;
+}
+
+/*INFO*/
+.info{
+    display: flex;
+    justify-content: center;
+    padding: 2% 0 2% 25%;
+}
+.info-container1, .info-container2{
+
+}
+.info-container1{
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    padding: 0 5% 0 0;
+}
+.info-container1 h3{
+    font-size: 20px;
+}
+.info-container1 p {
+    font-family: "Work Sans", sans-serif;
+}
+.info-container2-img{
+    width: 50%;
+    height: 100%;
+}
+
+/*HORARIO-DETALHE*/
+.horario-detalhe{
+    padding: 2%;
+}
+
+/*REVIEWS*/
+.reviews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.reviews-container2{
+    display: flex;
+    flex-direction: column;
+}
+.reviews-container2-img{
+    padding: 1% 0 1% 0;
 }
